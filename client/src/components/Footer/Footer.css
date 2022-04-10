@@ -1,0 +1,93 @@
+.footer_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #6d4532;
+  padding: 20px 15px;
+  color: white;
+}
+
+.about_us-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer_container h4 {
+  font-family: "Titillium web", sans-serif;
+  font-weight: bold;
+}
+
+.about_us-list h5 {
+  font-size: 1.1rem;
+  font-family: "Titillium web", sans-serif;
+  color: #d3d3d3;
+  margin-top: 5px;
+}
+
+.about_us-icon {
+  margin-right: 10px;
+}
+
+.heading {
+  margin-bottom: 15px;
+}
+
+.social_lists {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.footer_container ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer_container ul li:hover,
+.social_list:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.footer_container a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #d3d3d3;
+}
+
+.footer_container ul {
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer_container {
+    display: block;
+  }
+
+  .social_lists {
+    justify-content: flex-start;
+  }
+
+  .social_list {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .footer_container a,
+  .about_us-list h5 {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #d3d3d3;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer_container a,
+  .about_us-list h5 {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #d3d3d3;
+  }
+}

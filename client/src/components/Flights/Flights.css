@@ -1,0 +1,60 @@
+.flights_header h3 {
+  font-family: "Titillium web", sans-serif;
+  font-size: 3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.star {
+  text-align: left;
+}
+
+.star span {
+  color: red;
+  margin-right: 5px;
+}
+
+.star p {
+  margin: 0;
+  padding: 0;
+  font-size: 8px;
+}
+
+.star_list {
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .flights_parent {
+    margin-top: 500px;
+  }
+
+  .flights_header h3 {
+    font-size: 2.5rem;
+  }
+
+  .star_list:nth-child(10),
+  .star_list:nth-child(9) {
+    margin-bottom: 3px;
+  }
+
+  .star_list:nth-child(8) {
+    margin-bottom: -3px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .flights_parent {
+    margin-top: 100px;
+  }
+
+  .flights_header h3 {
+    font-size: 2.5rem;
+  }
+}

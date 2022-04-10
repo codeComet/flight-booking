@@ -1,0 +1,36 @@
+.search_parent {
+  margin-top: 200px;
+  text-align: center;
+  min-height: 60vh;
+}
+.css-p58oka {
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .search_parent {
+    margin-top: 130px;
+    text-align: center;
+  }
+
+  .MuiAutocomplete-hasPopupIcon,
+  .MuiFormControl-root {
+    margin: 10px auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .search_parent {
+    margin-top: 130px;
+    text-align: center;
+  }
+  .flights {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .search_parent {
+    margin-top: 190px;
+    min-height: 60vh;
+  }
+}

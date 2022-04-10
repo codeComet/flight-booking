@@ -1,0 +1,125 @@
+.form_parent {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  background-color: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 9px 6px 18px 0px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 9px 6px 18px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 9px 6px 18px 0px rgba(0, 0, 0, 0.53);
+}
+
+.MuiInputLabel-root {
+  background-color: white;
+  top: -3px !important;
+  padding: 0px 5px !important;
+}
+
+.inner_form {
+  display: block;
+}
+
+.dates {
+  margin: 15px auto;
+}
+
+.MuiAutocomplete-hasPopupIcon,
+.MuiFormControl-root {
+  width: 100% !important;
+  padding: 0px;
+  margin: 15px auto;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.submit_btn {
+  width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .form_parent {
+    position: static;
+    width: 300px;
+    padding: 10px;
+    margin: 30px auto;
+  }
+
+  .inner_form {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .MuiAutocomplete-hasPopupIcon,
+  .MuiFormControl-root {
+    width: 100% !important;
+    padding: 10px;
+  }
+
+  .dates {
+    width: 95%;
+    margin: 15px auto;
+  }
+
+  .css-qfz70r-MuiFormGroup-root {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .submit {
+    width: 90%;
+    margin: auto;
+  }
+
+  .submit_btn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .form_parent {
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    width: 300px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .form_parent {
+    position: absolute;
+    left: 35px;
+    top: 60px;
+    width: 320px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .form_parent {
+    position: absolute;
+    left: 10%;
+    top: 60px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .form_parent {
+    position: absolute;
+    left: 18%;
+    width: 450px;
+  }
+}

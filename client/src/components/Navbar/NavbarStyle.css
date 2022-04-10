@@ -1,0 +1,170 @@
+.MuiLink-underlineNone {
+  padding: 10px;
+  margin-right: 15px !important;
+  font-family: "Titillium Web", sans-serif;
+  color: white !important;
+  letter-spacing: 2px;
+  font-weight: bold;
+  transition: 400ms;
+  font-size: 13px;
+}
+
+.css-191lty2 {
+  min-height: 30px !important;
+}
+
+.MuiLink-underlineNone:hover {
+  color: #3f3d39 !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white !important;
+}
+
+.css-1t29gy6-MuiToolbar-root {
+  min-height: 35px !important;
+}
+
+.second_nav {
+  background-color: #6d4532 !important;
+}
+
+/* Subscription Form */
+
+.subscribe_form {
+  margin-bottom: 20px !important;
+}
+
+.logoRounded {
+  width: 68px;
+  height: auto;
+  display: none;
+}
+
+.css-1iwtne7-MuiTypography-root-MuiLink-root {
+  text-decoration: none !important;
+  color: #333 !important;
+}
+
+.social_bar {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.social_bar p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoRounded {
+    display: block;
+    margin-left: -3rem;
+  }
+
+  .modal_container {
+    margin-top: 300px;
+  }
+  .logo2,
+  .logo1 {
+    display: none;
+  }
+
+  .first_nav {
+    height: 70px;
+    padding: 2px 0px;
+  }
+
+  .css-198nu5u-MuiToolbar-root {
+    padding-left: 0px !important;
+  }
+
+  .second_nav {
+    margin-top: 70px;
+    height: 30px;
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    width: 0.8rem !important;
+  }
+
+  .email,
+  .phone {
+    font-size: 0.8rem !important;
+  }
+
+  .css-1t29gy6-MuiToolbar-root {
+    min-height: 30px;
+  }
+
+  .css-10hburv-MuiTypography-root {
+    margin: 0px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    display: block;
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    color: #fff;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo1 {
+    width: 160px;
+    height: auto;
+  }
+
+  .logo2 {
+    width: 73px;
+    height: auto;
+    padding: 5px 0px;
+  }
+
+  .second_nav {
+    margin-top: 80px;
+    height: 30px;
+  }
+
+  .css-1t29gy6-MuiToolbar-root {
+    min-height: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .second_nav {
+    margin-top: 130px;
+    height: 36px;
+  }
+
+  .logo1 {
+    margin-top: 2px;
+    width: 255px;
+    height: auto;
+    margin-left: 190px;
+  }
+
+  .logo2 {
+    width: 85px;
+    height: auto;
+    margin-top: -2px;
+  }
+
+  .nav_icon {
+    font-size: 1.5rem !important;
+  }
+
+  .first_nav {
+    height: 130px;
+  }
+
+  .email,
+  .phone {
+    font-size: 1.5rem !important;
+  }
+}

@@ -1,0 +1,17 @@
+.flight_parent {
+  flex: 4;
+}
+
+.flight_form {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 9px 6px 18px 0px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 9px 6px 18px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 9px 6px 18px 0px rgba(0, 0, 0, 0.53);
+}
+
+.price {
+  margin-bottom: 15px;
+}
